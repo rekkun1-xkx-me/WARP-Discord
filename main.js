@@ -100,4 +100,4 @@ if (message.content.startsWith(prefix)) {
 	}
 })
 
-client.login(auth.token);
+client.login(process.env.TOKEN);
